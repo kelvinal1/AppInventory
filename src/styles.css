@@ -1,0 +1,279 @@
+
+/*@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+@import "primeicons/primeicons.css";*/
+
+
+
+/* @import "~ng-zorro-antd/ng-zorro-antd.min.css";
+
+.label-align {
+    text-align: left;
+    padding: 0px !important
+  } */
+
+.text-right {
+  text-align: right;
+}
+
+.label-align {
+  margin-bottom: 2px;
+  padding: 0px !important;
+  text-align: left !important;
+}
+
+.button-edit {
+  border: none;
+  background-color: #fff;
+}
+
+.button-add {
+  margin-bottom: 10px;
+}
+
+.custom-popover {
+  width: 700px;
+}
+
+.custom-popover-input {
+  width: 300px;
+}
+
+.contact-name-popover {
+  width: 400px;
+}
+
+.icon {
+  margin-right: 4px;
+}
+
+.avatar-color-0 {
+  background-color: #47b9b9 !important;
+}
+
+.avatar-color-1 {
+  background-color: #4ea779 !important;
+}
+
+.avatar-color-2 {
+  background-color: #ddac62e6 !important;
+}
+
+.avatar-color-3 {
+  background-color: #c379dbe6 !important;
+}
+
+.avatar-color-4 {
+  background-color: #dd6fb6 !important;
+}
+
+.avatar-color-5 {
+  background-color: #418ea5 !important;
+}
+
+.avatar-default {
+  background-color: #418ea5 !important;
+}
+
+@media (max-width: 576px) {
+  .custom-popover {
+    width: 100%;
+  }
+
+  .custom-popover-input {
+    width: 100%;
+  }
+}
+
+.mt-1 {
+  margin-top: 10px;
+}
+
+.dash-card {
+  border-radius: 10px !important;
+}
+
+nz-switch .ant-switch.ant-switch-checked {
+  background: #1890ff;
+}
+
+nz-alert .ant-alert-with-description.ant-alert-no-icon {
+  border-radius: 10px;
+  background-color: #f0f2f3;
+}
+
+.card-survey {
+  border-radius: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+.item-input-survey {
+  margin-bottom: 10px !important;
+  border: none !important;
+  border-bottom: 1px solid #d9d9d9 !important;
+  background-color: #fff !important;
+}
+
+.survey-input-text {
+  background-color: #fff !important;
+  max-width: 95%;
+}
+
+.survey-input-radiobutton {
+  background-color: #fff !important;
+  max-width: 90%;
+}
+
+.btn-survey {
+  border: none !important;
+}
+
+.btn-survey-add {
+  border: none !important;
+  border-bottom: 1px solid #d9d9d9 !important;
+}
+
+.survey-list-item {
+  margin-bottom: 10px;
+}
+
+.card-top {
+  border-top: #3b82f6 solid 7px !important;
+}
+
+.item-table-survey {
+  background-color: #fff !important;
+  border: none !important;
+}
+
+.icon-valid {
+  color: #309100 !important;
+}
+
+.list-option-item {
+  margin-right: 4px;
+}
+
+.survey-conf-item {
+  margin-bottom: 10px !important;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+
+.card-report {
+  border-radius: 10px !important;
+}
+
+.btn-drag-handle {
+  border: none !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px F1F1F1;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #C1C1C1;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #A8A8A8;
+}
+
+
+.manage-board {
+  background: #243661 !important;
+  color: white !important;
+  line-height: 30px;
+  border-radius: 10px;
+  align-items: center !important;
+}
+
+.row-board {
+  border: 0.7px solid #afafaf;
+  border-radius: 10px;
+  overflow-y: auto;
+  background-color: #fff;
+  overflow: hidden;
+  display: block;
+}
+
+.example-box {
+  min-height: 60px;
+  border: none;
+  align-items: center;
+}
+
+.item-board {
+  border: solid 1px #ccc;
+  border-radius: 6px;
+  padding: 20px 10px;
+  color: rgba(0, 0, 0, 0.87);
+  box-sizing: border-box;
+  cursor: move;
+  background: white;
+  font-size: 14px;
+  margin: 5px 5px 5px 5px;
+}
+
+.item-board:last-child {
+  border: solid 1px #ccc !important;
+  margin-bottom: 5px;
+}
+
+@media (min-width: 576px) {
+  .row-board {
+    min-height: calc(90vh - 200px);
+    max-height: calc(90vh - 200px);
+  }
+
+}
+
+@media (max-width: 576px) {
+  .row-board {
+    min-height: 150px;
+  }
+
+}
+
+.tag-detail {
+  border-radius: 5px !important;
+}
+
+.ant-statistic-content {
+  line-height: 0.66667 !important;
+}
+
+.ant-statistic-content .ant-statistic-content-value {
+  color: red !important;
+  font-weight: bold;
+  font-size: 14px !important;
+}
+
+
+.row-board.cdk-drop-list-dragging .example-box:not(.cdk-drag-placeholder) {
+  transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+.delete-icon {
+  color: #ff0000 !important;
+}
